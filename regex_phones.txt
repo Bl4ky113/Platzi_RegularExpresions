@@ -1,0 +1,16 @@
+Generated in https://generatedata.com/
+
+Get numbers with 3 fives in a row
+^.+[5]{3,3}.+$
+
+Get Colombian's Numbers 
+57\s\d{3}\s\d{7}
+
+Get Both kinds of American's Numbers
+\d+(-\d+){1,3}
+
+Get Large American's and Colombian's Number
+\d+[\s-]\d+([\s-]\d+){1,2} 
+
+Get all Numbers
+\d+([\s-]\d+){1,3}
