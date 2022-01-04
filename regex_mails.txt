@@ -1,0 +1,5 @@
+taken from the course contents
+
+Get the domain of the mail
+@[\w\.\-]{3,}\.\w{2,5}
+ 
