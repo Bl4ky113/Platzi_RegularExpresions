@@ -1,0 +1,14 @@
+Gods know where this data came from, but... it was taken from: https://pastebin.com/ptDsJ6tR
+
+Get the request to this direction
+.*GET /twiki/bin.view/Main
+
+Get the request made by domains (?
+.*\.[\w]{3,3} - - \[
+
+Get the Errors logs and wrap the message in a group
+\[.*\] \[error\].*\] (.*)
+
+Get the Logs made between 20:**:** and 23:**:**
+^\[[\w]{3,3} [\w]{3,3} \d 2[0123].*\] (.*)$
+
