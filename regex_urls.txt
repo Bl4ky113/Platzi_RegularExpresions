@@ -1,0 +1,7 @@
+taken from Platzi User Contribution https://platzi.com/comentario/2339543/
+
+Get Every URL in the list
+https?:\/\/[\w\-\.]+\.?\w{2,5}\/?\S*
+
+Get Website URL
+https?:[/]{2,2}[\w\-\.]+
